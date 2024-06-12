@@ -1,0 +1,20 @@
+.idea/
+.pnpm-store
+.history/
+dist/
+node_modules/
+coverage/
+.yarn/
+# .vscode/
+*/**/.DS_Store
+**/**/.rollup.cache/
+**/**/private
+**/**/*.log
+.eslintcache
+**/**/tsconfig.tsbuildinfo
+packages/**/log.txt
+playwright_/.cache/
+playwright-report/
+node_modules/
+dbg/
+sc.png

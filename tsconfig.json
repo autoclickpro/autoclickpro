@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "lib": ["ESNext", "DOM"],
+    "declaration": true
+  },
+
+  "exclude": [
+    "./node_modules",
+    "./__mocks__",
+    "commitlint.config.cjs",
+    "**/node_modules/**",
+    "**/dist/**",
+    "jest.config.cjss",
+    "jestSetupTests.js",
+    "./wallaby.js"
+  ]
+}

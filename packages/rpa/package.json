@@ -1,0 +1,29 @@
+{
+  "name": "@autoclickpro/rpa",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./dist/index.cjs",
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --import tsx --test */**/*.test.ts",
+    "type": "tsc --project . --paths null --emitDeclarationOnly --declaration",
+    "build": " rollup -c && pnpm type  "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@autoclickpro/run": "workspace:^",
+    "get-windows": "^9.1.1",
+    "lodash-es": "^4.17.21",
+    "looks-same": "^9.0.0",
+    "minimist": "^1.2.8",
+    "sharp": "^0.33.4"
+  }
+}
