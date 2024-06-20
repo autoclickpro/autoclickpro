@@ -1,6 +1,6 @@
 {
   "name": "@autoclickpro/rpa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "",
   "exports": {
@@ -16,6 +16,9 @@
     "build": " rollup -c && pnpm type  "
   },
   "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@autoclickpro/run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "exports": {
@@ -17,6 +17,9 @@
   },
   "keywords": [],
   "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "dependencies": {
     "@types/minimist": "^1.2.5",

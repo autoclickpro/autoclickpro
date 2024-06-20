@@ -18,3 +18,4 @@ playwright-report/
 node_modules/
 dbg/
 sc.png
+pnpm-publish-summary.json
