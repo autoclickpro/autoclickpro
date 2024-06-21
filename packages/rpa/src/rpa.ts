@@ -193,7 +193,7 @@ export function createRpa({ dbg = true } = {}) {
       await keyboard.pressKey(...keys);
       await keyboard.releaseKey(...keys);
     },
-    async ocr({ inPane }: QueryOption) {
+    async ocr({ inPane }: QueryOption = { inPane: "wholeScreen" }) {
       const grabBox = await getBoxFromInPane(inPane);
       const sc = await screen.captureRegion("dbg/sc.png", box2Region(grabBox));
       const buffer = fs.readFileSync(sc);
